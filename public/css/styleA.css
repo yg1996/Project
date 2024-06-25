@@ -1,0 +1,355 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(231, 192, 231);
+  color: #f07ed5;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background-color: lavender;
+  color: plum;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #e4bcdc;
+}
+
+.hero {
+  background-image: url("pictures/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 48px;
+  color: #f9f6f8;
+  margin-bottom: 20px;
+  font-style: italic;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+  font-size: 24px;
+  color: #f4f2f4;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+}
+
+.cta {
+  background-color: rgb(246, 246, 240);
+  color: #eaadcb;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #954aff;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #c26cff;
+}
+
+.video-section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(231, 192, 231);
+  color: #fcfcfc;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background-color: lavender;
+  color: plum;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #e4bcdc;
+}
+
+.form-section-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #954aff;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #c26cff;
+}
+
+input[type="submit"] {
+  width: 100%;
+}
+.header {
+  background-color: lavender;
+  color: plum;
+  padding: 40px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #e4bcdc;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.header {
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #e4bcdc;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.form-section-title {
+  text-align: center;
+}
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #f07ed5;
+  background-color: #fff;
+  border: 2px solid #f07ed5;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #f07ed5;
+  color: #fff;
+}
+
+/* styleA.css */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  position: relative; /* Add position relative to the header */
+}
+
+.header img {
+  width: 4em; /* Adjust the size as needed */
+  height: auto;
+  transform: none; /* Remove the rotation */
+  margin-right: 0.5em;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.5em; /* Adjust the font size as needed */
+  text-align: center; /* Center the title */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo-container {
+  position: absolute;
+  top: 50%;
+  left: 1em;
+  transform: translateY(-50%);
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.register-page .container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  z-index: 999;
+}
+.matches-container {
+  text-align: left;
+}
+
+.matches-container p {
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+}
+
+.graphs-button-container {
+  margin-bottom: 20px;
+}
+
+.graphs-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Add this CSS to style the graphs container */
+
+.graphs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Adjust the width to control the width of each graph item in the row */
+.graphs-container img {
+  width: calc(33.33% - 10px);
+  margin-bottom: 20px;
+  box-sizing: border-box; /* Ensure padding and margin are included in the width */
+}
+
+.row-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+

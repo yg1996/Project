@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatchIt</title>
+    <link rel="stylesheet" href="css/styleA.css">
+    <style>
+        body.wide-page {
+            overflow-x: hidden;
+        }
+        body.wide-page .container {
+            width: 100%;
+            max-width: none;
+            padding: 0;
+        }
+        .matches-container p {
+            font-size: 2rem;
+        }
+        h2 {
+            font-size: 3rem;
+        }
+    </style>
+</head>
+<body class="wide-page">
+    <div class="container">
+        <header class="header">
+            <div class="logo-container">
+                <img src="Pictures/logo.png" alt="MatchIt Logo">
+            </div>
+            <h1>MatchIt</h1>
+        </header>
+        <div>
+            <h2>Highest Matches:</h2>
+            <div class="matches-container"><p>Avigail Graos is matched with Eli Sadon</p><p>Chen Elmalam is matched with Itay Quatinsky</p><p>Yarden Ben Nahoum is matched with Yehonatan Levi</p><p>Shira Halevi is matched with Tal Shitrit</p><p>Yael is matched with Oriel Naamat</p><p>Enbar Goeli is matched with Michael Cohen</p><p>Rotem Tuvia is matched with Nadav Green</p><p>Liel Moshkovits is matched with Ofek Rabo</p><p style="color:red;">Tomer Malachi did not find a match</p>
+            </div>
+        </div>
+        <div>
+            <h2>Graphs of match scores assigned:</h2>
+            <div class="graphs-button-container">
+            <button onclick="getMaleGraphs()" class="graphs-button" id="menGraphsButton">Show Men Graphs</button>
+            <button onclick="getFemaleGraphs()" class="graphs-button" id="womenGraphsButton">Show Females Graphs</button>
+            </div>
+
+            <div class="graphs-container" id="GraphsContainer">
+                <!-- Graphs will be added here dynamically by JavaScript -->
+            </div>
+
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

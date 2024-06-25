@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="css/styleA.css">
+</head>
+<body>
+    <a href="home.html" class="back-button">Back Home Page</a>
+    <div class="container">
+        <header class="header">Join us </header>
+        <form action="/addcsvuser" method="post">
+
+            <div class="form-section">
+                <h2 class="form-section-title">Tell us about yourself</h2>
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Enter your name" id="name" name="name" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="sex">Gender</label>
+                    <select id="sex" name="sex" required>
+                        <option value="" disabled selected>Select your gender</option>
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="age">Age</label>
+                    <input type="text" placeholder="Enter your age" id="age" name="age" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="body_type">Body Type</label>
+                    <select id="body_type" name="body_type" required>
+                        <option value="" disabled selected>Select your body type</option>
+                        <option value="Slim">Slim</option>
+                        <option value="Average">Average</option>
+                        <option value="Athletic">Athletic</option>
+                        <option value="Curvy">Curvy</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="diet">Diet</label>
+                    <select id="diet" name="diet" required>
+                        <option value="" disabled selected>Choose your diet</option>
+                        <option value="Vegan">Vegan</option>
+                        <option value="Vegetarian">Vegetarian</option>
+                        <option value="Omnivore">Omnivore</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="drinks">Alcohol use</label>
+                    <select id="drinks" name="drinks" required>
+                        <option value="" disabled selected>Do you drink?</option>
+                        <option value="Never">Never</option>
+                        <option value="Socially">Socially</option>
+                        <option value="Regularly">Regularly</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="drugs">Drugs use</label>
+                    <select id="drugs" name="drugs" required>
+                        <option value="" disabled selected>Do you use drugs?</option>
+                        <option value="Never">Never</option>
+                        <option value="Sometimes">Sometimes</option>
+                        <option value="Often">Often</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="height">Height</label>
+                    <input type="number" placeholder="Enter your height" id="height" name="height" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="pets">Pets</label>
+                    <select id="pets" name="pets" required>
+                        <option value="" disabled selected>Do you have a pet?</option>
+                        <option value="Dog">Dog</option>
+                        <option value="Cat">Cat</option>
+                        <option value="None">None</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="religion">Religion</label>
+                    <select id="religion" name="religion" required>
+                        <option value="" disabled selected>What is your religion?</option>
+                        <option value="Christian">Christian</option>
+                        <option value="Muslim">Muslim</option>
+                        <option value="Jewish">Jewish</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="smokes">Smoking habits</label>
+                    <select id="smokes" name="smokes" required>
+                        <option value="" disabled selected>Do you smoke?</option>
+                        <option value="No">No</option>
+                        <option value="Occasionally">Occasionally</option>
+                        <option value="Yes">Yes</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2 class="form-section-title">Describe your ideal partner</h2>
+
+                <div class="input-group">
+                    <label for="preferred_min_age">Preferred Minimum Age</label>
+                    <input type="number" placeholder="Enter your preferred minimum age" id="preferred_min_age" name="preferred_min_age" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="preferred_max_age">Preferred Maximum Age</label>
+                    <input type="number" placeholder="Enter your preferred maximum age" id="preferred_max_age" name="preferred_max_age" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="preferred_body_type">Preferred Body Type</label>
+                    <select id="preferred_body_type" name="preferred_body_type" required>
+                        <option value="" disabled selected>Choose your preferred partner's body type</option>
+                        <option value="Slim">Slim</option>
+                        <option value="Average">Average</option>
+                        <option value="Athletic">Athletic</option>
+                        <option value="Curvy">Curvy</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="preferred_diet">Preferred Diet</label>
+                    <select id="preferred_diet" name="preferred_diet" required>
+                        <option value="" disabled selected>Choose your preferred partner's diet</option>
+                        <option value="Vegan">Vegan</option>
+                        <option value="Vegetarian">Vegetarian</option>
+                        <option value="Omnivore">Omnivore</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="preferred_drinks">Preferred Drinks</label>
+                    <select id="preferred_drinks" name="preferred_drinks" required>
+                        <option value="" disabled selected>Choose your preferred partner's drinking habits</option>
+                        <option value="Never">Never</option>
+                        <option value="Socially">Socially</option>
+                        <option value="Regularly">Regularly</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="preferred_drugs">Preferred Drugs use</label>
+                    <select id="preferred_drugs" name="preferred_drugs" required>
+                        <option value="" disabled selected>Choose your preferred partner's drugs use habits</option>
+                        <option value="Never">Never</option>
+                        <option value="Sometimes">Sometimes</option>
+                        <option value="Often">Often</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="preferred_height">Preferred Height</label>
+                    <input type="number" placeholder="Choose your preferred height" id="preferred_height" name="preferred_height" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="preferred_pets">Preferred Pets</label>
+                    <select id="preferred_pets" name="preferred_pets" required>
+                        <option value="" disabled selected>Choose your preferred partner's type of pets</option>
+                        <option value="Dog">Dog</option>
+                        <option value="Cat">Cat</option>
+                        <option value="None">None</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="preferred_religion">Preferred Religion</label>
+                    <select id="preferred_religion" name="preferred_religion" required>
+                        <option value="" disabled selected>Choose your preferred partner's religion</option>
+                        <option value="Christian">Christian</option>
+                        <option value="Muslim">Muslim</option>
+                        <option value="Jewish">Jewish</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="preferred_smokes">Preferred Smoking habits</label>
+                    <select id="preferred_smokes" name="preferred_smokes" required>
+                        <option value="" disabled selected>Choose your preferred partner's smoking habits</option>
+                        <option value="No">No</option>
+                        <option value="Occasionally">Occasionally</option>
+                        <option value="Yes">Yes</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- For saving the details of the new user or updating a new detail -->
+            <input type="submit" value="Register" class="btn-primary">
+        </form>
+    </div>
+
+    <script>
+        // Wait for the DOM to be loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get the form element
+            var form = document.querySelector('form');
+
+            // Attach an event listener to the form's submit event
+            form.addEventListener('submit', function(event) {
+                // Prevent the default form submission behavior
+                event.preventDefault();
+
+                // Perform your form validation here
+                // If the form is valid, you can proceed with the redirection
+
+                // Redirect the user to the home page
+                window.location.href = 'Home.html';
+            });
+        });
+    </script>
+</body>
+</html>
