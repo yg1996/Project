@@ -7,8 +7,8 @@ from public.Gale_Shapley import gale_shapley, women_dictionary, men_dictionary ,
 from lp import *
 
 app = FastAPI()
-templates = Jinja2Templates(directory="templates")
-app.mount("/static", StaticFiles(directory="static"), name="static")
+templates = Jinja2Templates(directory="public")
+app.mount("/public", StaticFiles(directory="public"), name="public")
 
 userInfo = None
 @app.get('/', response_class=HTMLResponse)
